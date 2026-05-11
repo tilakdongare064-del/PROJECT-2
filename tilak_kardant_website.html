@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tilak Kardant - Healthy Dry Fruit Sweet</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fff8f3;
+      color: #4a3428;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #f7d9c4, #fbe8dd);
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: #8b5e3c;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #6b4b35;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #c97f54;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 8%;
+      background: #fff3ea;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 30px;
+    }
+
+    .hero-text h1 {
+      font-size: 55px;
+      color: #7a4e2d;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 25px;
+      color: #5d4636;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #d89b72;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #b7744c;
+    }
+
+    .hero-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .hero-image img {
+      width: 90%;
+      max-width: 450px;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 50px;
+      color: #7a4e2d;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 20px;
+    }
+
+    .product-info h3 {
+      margin-bottom: 10px;
+      color: #7b5234;
+    }
+
+    .product-info p {
+      font-size: 15px;
+      color: #5e5044;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 20px;
+      color: #c16d3f;
+      font-weight: bold;
+    }
+
+    .benefits {
+      background: #fdeee3;
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .benefits p {
+      font-size: 18px;
+      margin-top: 15px;
+      color: #5d4636;
+    }
+
+    .contact {
+      background: #fff3ea;
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .contact h2 {
+      margin-bottom: 20px;
+      color: #7a4e2d;
+    }
+
+    .contact p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      background: #f7d9c4;
+      padding: 20px;
+      color: #5c4333;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text {
+        padding-right: 0;
+        margin-bottom: 30px;
+      }
+
+      .hero-text h1 {
+        font-size: 42px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Tilak Kardant</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Healthy Traditional Kardant</h1>
+      <p>
+        Authentic Gokak style Kardant made with premium dry fruits, nuts, jaggery and natural ingredients. High in protein, rich in energy and perfect for a healthy lifestyle.
+      </p>
+      <a href="#products" class="btn">Explore Products</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="images 2.jpg" alt="Tilak Kardant Sweet">
+    </div>
+  </section>
+
+  <section id="products">
+    <h2 class="section-title">Our Products</h2>
+
+    <div class="products">
+
+      <div class="product-card">
+        <img src="images 3.jpg" alt="Classic Kardant">
+        <div class="product-info">
+          <h3>Classic Dry Fruit Kardant</h3>
+          <p>
+            Traditional healthy sweet loaded with almonds, cashews, peanuts, dates and jaggery.
+          </p>
+          <div class="price">₹250 / Box</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images 4.jpg" alt="Premium Kardant">
+        <div class="product-info">
+          <h3>Premium Protein Kardant</h3>
+          <p>
+            Extra rich dry fruit mix with crunchy nuts and high protein ingredients for daily energy.
+          </p>
+          <div class="price">₹350 / Box</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images 2.jpg" alt="Family Pack Kardant">
+        <div class="product-info">
+          <h3>Family Pack Kardant</h3>
+          <p>
+            Perfect sweet for festivals and family celebrations with healthy traditional taste.
+          </p>
+          <div class="price">₹500 / Family Pack</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="benefits">
+    <h2 class="section-title">Why Choose Kardant?</h2>
+
+    <div class="benefits">
+      <h3>Natural Energy & High Protein Sweet</h3>
+      <p>
+        ✔ Rich in Dry Fruits & Nuts<br><br>
+        ✔ High Protein Traditional Sweet<br><br>
+        ✔ No Artificial Flavours<br><br>
+        ✔ Healthy Energy Snack<br><br>
+        ✔ Perfect for Festivals & Daily Nutrition
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact Tilak Kardant</h2>
+      <p><strong>Phone:</strong> 6363809614</p>
+      <p><strong>Email:</strong> tilakdongare064@gmail.com</p>
+      <p><strong>Location:</strong> Gokak, Karnataka</p>
+      <br>
+      <a href="tel:6363809614" class="btn">Call Now</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Tilak Kardant | Traditional Healthy Sweet From Gokak</p>
+  </footer>
+
+</body>
+</html>
